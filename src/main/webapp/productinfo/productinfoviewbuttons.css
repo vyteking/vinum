@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#productinfoviewoptionslist {
+	width:100%;
+	margin:auto;
+	padding:15px 13px;
+	clear:left;
+}
+
+.optionbutton {
+	width:150px;
+	height:45px;
+	margin:7px;
+	background-color:#f8c0e6;
+	border:none;
+	border-radius:8px;
+	font-size:18px;
+	float:left;
+}

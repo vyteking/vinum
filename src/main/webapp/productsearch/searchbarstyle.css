@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.searchbar {
+	width:100%;
+	margin:auto;
+	clear:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d0d0d0;
+	border-radius:7px;
+}
+
+.searchbarmethod {
+	float:none;
+	padding:5px;
+	font-size:22px;
+}
+
+input#searchbartextinput {
+	width:83%;
+	height:52px;
+	padding:0 15px;
+	border-style:none;
+	border-radius:7px 0 0 7px;
+}
+
+input#searchbarresetbutton {
+	width:52px;
+	height:52px;
+	border-style:none;
+}
+
+input#searchbarsubmitbutton {
+	width:52px;
+	height:52px;
+	border-style:none;
+	background-color:#fd39a0;
+	border-radius:0 7px 7px 0;
+}

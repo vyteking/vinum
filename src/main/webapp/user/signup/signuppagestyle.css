@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#signupBG {
+	position:relative;
+	/*top:0;
+	bottom:0;
+	left:0;
+	right:0;*/
+	width:93%;
+	height:100%;
+	margin:0;
+	padding: 55px;
+	background-size:cover;
+	background-color:#f8b5fd;
+	background-attachment:scroll;
+}
+#signupboxdiv {
+	position: relative;
+	margin: 55px auto 55px;
+	padding: 75px;
+	background-color:#FBFBFB;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.signupbox {
+	position: relative;
+	text-align:center;
+}
+.signupboxlabel {
+	font-size:20px;
+	color:#424242;
+}
+
+#signupboxtitle {
+	font-size:35px;
+}
+
+
+#signuptable {
+	margin:auto;
+	padding:35px;
+}
+
+.signuptableTR {
+	float:none;
+}
+
+.signuptableTD {
+	padding:15px;
+	float:none;
+}
+
+input.signuptextinput {
+	width:450px;
+	height:35px;
+	background:rgba(256, 256, 256, 0.5);
+	border-style:none none outset none;
+	border-color:#ff3979;
+}
+
+#confirmIDDuplication {
+	color:#9C9C9C;
+	font-size:13px;
+	text-decoration:none;
+}
+
+#signupboxbuttonslist {
+	margin:auto;
+}
+
+td#signupboxbuttonslist {
+	float:left;
+	padding:12px;
+}
+
+.signupboxbuttons {
+	width:200px;
+	height:56px;
+	font-size:15px;
+	font-weight:bold;
+	border-style:none;
+	background-color:#f95389;
+	border-radius:8px;
+}

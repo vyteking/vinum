@@ -1,0 +1,31 @@
+@charset "UTF-8";
+#producttable {
+	width:90%;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	padding:17px;
+	margin:44px;
+}
+td#producttable {
+	float:left;
+	width:100%;
+}
+
+#productthumbnailimage {
+	width:200px; height:200px;
+	text-align:center;
+	background-color:#DDDDDD;
+}
+
+.eachproductTD {
+	padding:0 35px;
+	font-size:12px;
+}
+
+#productname {
+	font-size:25px;
+	padding:4px 35px;
+}
+
+/*#productprice {
+	font-size:15px;
+}*/

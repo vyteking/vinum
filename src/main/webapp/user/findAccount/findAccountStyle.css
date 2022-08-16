@@ -1,0 +1,98 @@
+@charset "UTF-8";
+#findAccountBG {
+	position:relative;
+	/*top:0;
+	bottom:0;
+	left:0;
+	right:0;*/
+	width:93%;
+	height:100%;
+	margin:0;
+	padding: 55px;
+	background-size:cover;
+	background-color:#f8b5fd;
+	background-attachment:scroll;
+}
+#findAccountDiv {
+	position: relative;
+	margin: 55px auto 55px;
+	padding: 75px;
+	background-color:#FBFBFB;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+#findAccountMenus {
+	padding:25px;
+}
+
+.menuUL {
+	list-style-type:none;
+}
+
+.menuLI {
+	float:left;
+	display:inline;
+	width:450px;
+	height:30px;
+	margin:15px;
+}
+h2.eachmenu {
+	text-align:center;
+	
+}
+
+.findAccountForm {
+	/*position: relative;*/
+	text-align:center;
+	padding:24px;
+}
+.findAccountFormLabel {
+	font-size:20px;
+	color:#424242;
+}
+
+.findAccountTableTitle {
+	font-size:35px;
+}
+
+
+.findAccountTable {
+	margin:auto;
+	padding:35px;
+}
+
+.findAccountTableTR {
+	float:none;
+}
+
+.findAccountTableTD {
+	padding:15px;
+	float:none;
+}
+
+input.findAccountTextinput {
+	width:450px;
+	height:35px;
+	background:rgba(256, 256, 256, 0.5);
+	border-style:none none outset none;
+	border-color:#ff3979;
+}
+
+#buttonslistDiv {
+	margin:auto;
+}
+
+td#buttonslistDiv {
+	float:left;
+	padding:12px;
+}
+
+.findAccountButton {
+	width:200px;
+	height:56px;
+	font-size:15px;
+	font-weight:bold;
+	border-style:none;
+	background-color:#f95389;
+	border-radius:8px;
+}
