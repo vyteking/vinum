@@ -13,6 +13,7 @@
 		<div class="productlistDiv" id="productlistDiv" name="productlistDiv">
 			<jsp:include page="./productlist_eachproduct.jsp"/>
 		</div>
+		<jsp:include page="./productlistadminbuttons.jsp"/>
 		<jsp:include page="../userinterface/pagination/pagination.jsp"/>
 	</div>
 </body>

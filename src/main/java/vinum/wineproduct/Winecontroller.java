@@ -11,8 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import vinum.ActionForward;
 import vinum.VinumAction;
-import vinum.user.login.LoginAction;
-import vinum.user.logout.LogoutAction;
+import vinum.wineproduct.winedelete.WineDeleteAction;
+import vinum.wineproduct.wineinsert.WineInsertAction;
+import vinum.wineproduct.winelist.SearchAction;
+import vinum.wineproduct.wineupdate.WineUpdateAction;
 
 /**
  * Servlet implementation class Winecontroller
@@ -49,8 +51,8 @@ public class Winecontroller extends HttpServlet {
 		ActionForward forward = null;
 		VinumAction action = null;
 
-		if (command.equals("/login.lo")) {
-			action = new LoginAction();
+		if (command.equals("/search.vin")) {
+			action = new SearchAction();
 			try {
 				forward = action.execute(request, response);
 			} catch (Exception e) {
@@ -58,8 +60,35 @@ public class Winecontroller extends HttpServlet {
 				e.printStackTrace();
 			}
 		}
-		else if (command.equals("/logout.lo")) {
-			action = new LogoutAction();
+		else if (command.equals("/productinfoadd.vin")) {
+			action = new WineInsertAction();
+			try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		/*else if (command.equals("/productinfoeditwindow.vin")) {
+			//action = new LogoutAction();
+			try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}*/
+		else if (command.equals("/productinfoedit.vin")) {
+			action = new WineUpdateAction();
+			try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		else if (command.equals("/productinfodelete.vin")) {
+			action = new WineDeleteAction();
 			try {
 				forward = action.execute(request, response);
 			} catch (Exception e) {

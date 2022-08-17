@@ -17,9 +17,8 @@ public class LoginAction implements VinumAction {
 		request.setCharacterEncoding("UTF-8");
 		String id = request.getParameter("memberId");
 		String passwd = request.getParameter("memberPasswd");
-		
-		System.out.println("id = " + id);
-		System.out.println("passwd = " + passwd);
+		//System.out.println("id = " + id);
+		//System.out.println("passwd = " + passwd);
 		
 		MemberLoginService memberLoginService = new MemberLoginService();
 		

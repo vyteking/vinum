@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="infoaddedit" id="infoaddeditBG">
-	<form action="productinfoaddedit.do" method="post" class="infoaddedit" id="infoaddeditform">
+	<form action="productinfoadd.vin" method="post" class="infoaddedit" id="infoaddeditform">
 		<div class="productinfobox" id="productinfobox">
 			<p class="productinfo" id="productnumber">#</p>
 			<input type="text" class="infoaddeditinput" id="infotitleaddedit" placeholder="Title here"/>

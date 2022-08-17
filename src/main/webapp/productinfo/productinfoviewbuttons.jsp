@@ -9,8 +9,8 @@
 </head>
 <body>
 	<div class="productinfoviewoptionslist" id="productinfoviewoptionslist">
-		<button class="optionbutton" id="wineinfoeditbutton" formaction="productinfoedit.do">Edit</button>
-		<button class="optionbutton" id="wineinfodeletebutton" formaction="productinfodelete.do">Delete</button>
+		<button class="optionbutton" id="wineinfoeditbutton" formaction="./productinfoedit.jsp">Edit</button>
+		<button class="optionbutton" id="wineinfodeletebutton" formaction="productinfodelete.vin">Delete</button>
 	</div>
 </body>
 </html>

@@ -8,7 +8,7 @@
 </head>
 <body>
 	<section id="searcharea">
-	<form action="search.do" method="get" class="searchbar" id="searchbar">
+	<form action="search.vin" method="get" class="searchbar" id="searchbar">
 	
 		<input type="text" class="searchbarmethod" id="searchbartextinput"/>
 		<input type="reset" class="searchbarmethod" id="searchbarresetbutton" value="x"/>
