@@ -68,8 +68,8 @@
                 <button class="button-choose pure-button" onClick = "location.href='./productlist/productCheck.jsp'">CLICK!</button>
             </div>
         </div>
-
-        <div class="pure-u-1 pure-u-md-1-3">
+		
+        <a href="./productlist/productlist.jsp"><div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-biz pricing-table-selected">
                 <div class="pricing-table-header" >
                 	
@@ -89,7 +89,7 @@
 
                 <button class="button-choose pure-button">CLICK!</button>
             </div>
-        </div>
+        </div></a>
 
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-enterprise">

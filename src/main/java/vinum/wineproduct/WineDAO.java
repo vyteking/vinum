@@ -57,7 +57,13 @@ public class WineDAO implements WineDAOIF {
 		}
 		return "list wine";
 	}
-
+	
+	@Override
+	public String searchWine() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	@Override
 	public long selectWine(long productnumber) {
 		// TODO Auto-generated method stub

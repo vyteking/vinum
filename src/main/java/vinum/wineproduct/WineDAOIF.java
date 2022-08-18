@@ -13,6 +13,7 @@ public interface WineDAOIF {
 	public WineDAOIF getInstance();
 	public void setConnection(Connection con);
 	public String listWine();
+	public String searchWine();
 	public long selectWine(long productnumber);
 	public int insertWine(WineVO wineVO);
 	public int updateWine(WineVO wineVO);

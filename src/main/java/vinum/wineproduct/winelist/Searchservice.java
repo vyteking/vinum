@@ -13,6 +13,7 @@ import java.sql.Connection;
 public class Searchservice {
 	public String search(String searchinput) {
 		Connection conn = getConnection();
+		
 		return searchinput;
 	}
 }

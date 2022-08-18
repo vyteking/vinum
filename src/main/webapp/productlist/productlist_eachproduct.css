@@ -4,6 +4,7 @@
 	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 	padding:17px;
 	margin:44px;
+	text-decoration:none;
 }
 td#producttable {
 	float:left;
